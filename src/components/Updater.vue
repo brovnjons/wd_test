@@ -1,15 +1,15 @@
 <template>
   <div>
     <form @submit.prevent="submit">
-      <h2>Endpoint</h2>
-      <p>Enter a valid WordPress REST endpoint.</p>
+      <h2>Сайт</h2>
+      <p>Введіть дійсну кінцеву точку WordPress REST.</p>
       <input v-model="updatedEndpoint" type="text">
       <span v-if="error">{{ error }}</span>
-      <button type="submit">Save</button>
+      <button type="submit">Зберегти</button>
     </form>
     <a
       v-if="!error"
-      @click="close">Nevermind.</a>
+      @click="close">Відмінити.</a>
   </div>
 </template>
 
