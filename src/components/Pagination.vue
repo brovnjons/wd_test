@@ -6,7 +6,7 @@
           :class="{'is-disabled' : currentPage === 1}"
           :to="{ name: 'page', params: {page: this.currentPage - 1} }"
         >
-          Previous Page
+          Попередня сторінка
         </router-link>
       </li>
       <li>
@@ -14,12 +14,12 @@
           :class="{'is-disabled' : currentPage === this.totalPages}"
           :to="{ name: 'page', params: {page: this.currentPage + 1} }"
         >
-          Next Page
+          Наступна сторінка
         </router-link>
       </li>
     </ul>
 
-    <p>page <strong>{{ currentPage }}</strong> out of <strong>{{ totalPages }}</strong></p>
+    <p>page <strong>{{ currentPage }}</strong> з <strong>{{ totalPages }}</strong></p>
   </nav>
 </template>
 
