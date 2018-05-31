@@ -12,7 +12,7 @@
 
     <div>
       <p>
-        В даний час подання контенту з <a :href="sourceURL">{{ splitEndpoint[2] }}</a>.
+        В даний час подання контенту з {{ splitEndpoint[2] }}.
       </p>
 
       <button @click="showUpdater">
