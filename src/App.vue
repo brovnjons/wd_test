@@ -41,7 +41,7 @@
       return {
         error: '',
         loadingOn: true,
-        loadingMessage: 'Loading WP Vue',
+        loadingMessage: 'Завантаження Новин',
         loadingWheel: true,
         showUpdater: false,
         viewKey: 0,
@@ -61,7 +61,7 @@
           return;
         }
 
-        this.loadingMessage = 'Loading...';
+        this.loadingMessage = 'Завантаження...';
         this.loadingWheel = true;
         this.loadingOn = status;
       });
