@@ -3,7 +3,7 @@
 
     <article>
 
-      <a @click="goBack">Back to All Posts</a>
+      <a @click="goBack">Назад до всіх новин</a>
 
       <header>
         <img
@@ -14,11 +14,11 @@
 
         <ul>
           <li>
-            <span>Published on {{ date }}</span>
+            <span>Опубліковано  {{ date }}</span>
           </li>
           <li>
             <span>
-              <a :href="link">View Post at Source</a>
+              <a :href="link">Переглянути допис на сайті</a>
             </span>
           </li>
         </ul>
