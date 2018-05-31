@@ -6,17 +6,17 @@
         :to="{
           name: 'home',
         }">
-        WP Vue
+        Новини - Парсер з Сайту
       </router-link>
     </h1>
 
     <div>
       <p>
-        Currently presenting content from <a :href="sourceURL">{{ splitEndpoint[2] }}</a>.
+        В даний час подання контенту з <a :href="sourceURL">{{ splitEndpoint[2] }}</a>.
       </p>
 
       <button @click="showUpdater">
-        Change Endpoint
+        Змінити
       </button>
     </div>
   </nav>
